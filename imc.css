@@ -1,0 +1,32 @@
+html{ background-color:cadetblue}
+body{ background-color: bisque;}
+
+
+#row{ background-color: wheat;}
+#comment{ background-color: blueviolet; }
+
+
+#quoi { display: block;
+border:solid blueviolet ;
+border-radius: 6px;
+background-color: wheat;
+padding-left: 10px;
+margin-left: 50%;
+}
+
+#Dr{
+    margin-top: 5%;
+    width:400px;
+    width: 400px;
+    height: auto;
+    border: 2px solid;
+
+   
+
+
+}
+h1{ text-align: center;
+padding-top: 1%;}
+#champ{ background-color: aquamarine;
+width :50%;
+padding-left: 1rem;}
