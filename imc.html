@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/imc.css">
+    <script src="imc.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>IMC</title>
+</head>
+
+<body>
+    <h1> Calculez vôtre IMC avec Dr ...</h1>
+   
+    <div class="row pt-5 " id="row">
+    <div class="col-md-6 col-sm-12 text-center ">
+        <img src="/img/téléchargement.jpeg" alt="" id="Dr">
+        </div>
+    
+        <div class="col-md-6 col-sm-12 mt-6">
+    <h2> L'IMC c'est quoi ? </h2>
+    <p>L'IMC, ou Indice de Masse Corporelle, est un outil couramment utilisé pour évaluer la corpulence d'une personne en fonction de sa taille et de son poids. Il est calculé en divisant le poids en kilogrammes par le carré de la taille en mètres (IMC = poids en kg / (taille en mètres)²). L'IMC est souvent utilisé comme indicateur général de la santé corporelle, bien que ses limitations soient reconnues.
+            <br>
+            <br>
+        L'IMC est généralement interprété de la manière suivante :<br>
+        - IMC inférieur à 18,5 : insuffisance pondérale <br>
+        - IMC entre 18,5 et 24,9 : poids normal <br>
+        - IMC entre 25 et 29,9 : surpoids <br>
+        - IMC de 30 ou plus : obésité <br> <br>
+        
+        Cependant, il est important de noter que l'IMC ne prend pas en compte d'autres facteurs tels que la répartition des graisses corporelles, la masse musculaire ou d'autres aspects de la santé. Il doit être utilisé avec prudence et en conjonction avec d'autres informations pour évaluer la santé globale d'une personne.</p>
+    </div>
+    </div>
+
+    <div id="comment">
+    <h2> Comment calculer l'IMC</h2>
+    <p> Pour calculer votre IMC, suivez ces étapes simples : <br><br>
+
+        Mesurez votre poids en kilogrammes (kg).<br>
+        Mesurez votre taille en mètres (m).<br>
+        Une fois que vous avez ces deux mesures, utilisez la formule suivante pour calculer votre IMC :<br><br>
+        
+        IMC = poids (kg) / (taille (m) * taille (m))<br><br>
+        
+        Par exemple, si vous pesez 70 kg et mesurez 1,75 mètre :<br><br>
+        
+        IMC = 70 / (1.75 * 1.75) = 22.86<br><br>
+        
+        Dans cet exemple, l'IMC est d'environ 22.86.<br>
+        </p>
+        <img src="/img/graphique_imc_repartition_indice_masse_corporelle_poids_taille_ideal.png">  
+      
+    </div>
+    </div>
+   <div id="champ">
+    <p> vôtre taille en metre </p>
+    <input type="number" id="champ1" >
+    <br>
+    <br>
+    <p> vôtre poids</p>
+    <input type="number" id="champ2" >
+    <br>
+    <br>
+    <p> résultat</p>
+    <input type="number" id="resultat" disabled>
+
+    <button onclick="calcul()">calculer</button>
+   </div>
+
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    -->
+    
+</body>
+</html>
+
